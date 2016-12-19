@@ -1,0 +1,55 @@
+
+Rhizopus Growth at 30C, Dark
+
+            Df Sum Sq Mean Sq F value Pr(>F)  
+R30C$Number  1   4.23   4.227   3.688 0.0595 .
+Residuals   61  69.92   1.146                 
+
+	    Df Sum Sq Mean Sq F value Pr(>F)
+R30C$Region  8   6.54  0.8172   0.653   0.73
+Residuals   54  67.61  1.2520  
+
+             Df Sum Sq Mean Sq F value Pr(>F)
+R30C$Climate  4   4.94   1.235   1.035  0.397
+Residuals    58  69.20   1.193  
+
+               Df Sum Sq Mean Sq F value Pr(>F) 
+R30C$Substrate  4  14.25   3.564   3.451 0.0135 *
+Residuals      58  59.89   1.033                 
+
+
+Rhizopus Growth at 23C, Dark
+
+            Df Sum Sq Mean Sq F value Pr(>F)
+R23C$Number  1   0.79  0.7889   0.778  0.381
+Residuals   61  61.86  1.0141 
+	
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+R23C$Region  8  21.35  2.6688    3.49 0.00258 **
+Residuals   54  41.30  0.7648 
+
+               Df Sum Sq Mean Sq F value Pr(>F)  
+R23C$Substrate  4  10.27  2.5674   2.843  0.032 *
+Residuals      58  52.38  0.9031                 
+
+             Df Sum Sq Mean Sq F value Pr(>F)  
+R23C$Climate  4  12.41  3.1014    3.58 0.0112 *
+Residuals    58  50.24  0.8662                 
+
+Rhizopus Growth at 25C, interminttent "Baseline"
+
+             Df Sum Sq Mean Sq F value Pr(>F)
+Base$Number   1   0.14  0.1446   0.155  0.695
+Residuals   207 193.75  0.9360               
+
+             Df Sum Sq Mean Sq F value Pr(>F)
+Base$Region   9   9.45  1.0498   1.133  0.341
+Residuals   199 184.45  0.9269               
+
+              Df Sum Sq Mean Sq F value Pr(>F)
+Base$Climate   5   5.45  1.0901   1.174  0.323
+Residuals    203 188.45  0.9283     
+
+                Df Sum Sq Mean Sq F value Pr(>F)
+Base$Substrate  10  14.01  1.4014   1.543  0.127
+Residuals      198 179.88  0.9085 
