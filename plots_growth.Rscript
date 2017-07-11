@@ -1,10 +1,11 @@
 R30C<-read.csv("rhizogrowth30C.csv")
-Base<-read.csv("rhizogrowth25C.csv")
 R23C<-read.csv("rhizogrowth23C.csv")
+RDiff<-read.csv("rhizo2330Diff.csv")
+
 pdf("Rhizo_histo.pdf")
 hist(R30C$Slope,main="Distribution of hyphal growth rates at 30C/Dark",xlab="Growth Rate cm/day")
 hist(R23C$Slope,main="Distribution of hyphal growth rates at 23C/Dark",xlab="Growth Rate cm/day")
-hist(Base$Slope,main="Distribution of hyphal growth rates",xlab="Growth Rate cm/day")
+hist(RDiff$Diff,main="Distribution the difference of hyphal growth rates at 23C and 30C",xlab="Growth Rate cm/day")
 plot
 dev.off()
 pdf("Rhizo_growth_boxplot.clean.pdf")
@@ -13,24 +14,35 @@ boxplot(R30C$Slope ~ R30C$Substrate,main="30C growth rates by Substrate",ylab="G
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Substrate,main="23C growth rates by Substrate",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
-boxplot(Base$Slope ~ Base$Substrate,main="Baseline growth rates by Substrate",ylab="Growth Rate cm/day",las=2)
-par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Climate,main="23C growth rates by Climate",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope ~ R30C$Climate,main="30C growth rates by Climate",ylab="Growth Rate cm/day",las=2)
-par(mar=c(10,10,5,5)+1)
-boxplot(Base$Slope ~ Base$Climate,main="Baseline growth rates by Climate",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Region,main="23C growth rates by Region",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope ~ R30C$Region,main="30C growth rates by Region",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
-boxplot(Base$Slope ~ Base$Region,main="Baseline growth rates by Region",ylab="Growth Rate cm/day",las=2)
-boxplot(R23C$Slope,main="23C growth rates",ylab="Growth Rate cm/day",las=2)
-par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope,main="30C growth rates",ylab="Growth Rate cm/day",las=2)
 par(mar=c(10,10,5,5)+1)
-boxplot(Base$Slope,main="25C growth rates",ylab="Growth Rate cm/day",las=2)
+boxplot(R23C$Slope,main="23C growth rates",ylab="Growth Rate cm/day",las=2)
+
+
+
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Substrate,main="Pairwise growth rate difference at 23C and 30C by Substrate",ylab="Growth Rate cm/day",las=2)
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Climate,main="Pairwise growth rate difference at 23C and 30C by Climate",ylab="Growth Rate cm/day",las=2)
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Region,main="Pairwise growth rate difference at 23C and 30 C by Region",ylab="Growth Rate cm/day",las=2)
+
+
+
+
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff,main="Pairwise growth rate difference at 23C and 30 C (cm/day)",ylab="Growth Rate cm/day",las=2)
+
+
 
 plot
 dev.off()
+

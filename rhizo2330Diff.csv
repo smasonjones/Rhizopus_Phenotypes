@@ -1,0 +1,373 @@
+Number,SlopeR23C,SlopeR30C,Diff,Substrate,Climate,Region
+1,2.135714286,1.875,0.2607142857,Plant,Temperate,Unknown
+1,2.042857143,1.885714286,0.1571428571,Plant,Temperate,Unknown
+1,2.082142857,1.935714286,0.1464285714,Plant,Temperate,Unknown
+2,2.142857143,4.378571429,-2.235714286,Fruit,Temperate,Unknown
+2,2.082142857,4.046428571,-1.964285714,Fruit,Temperate,Unknown
+2,2.042857143,4.267857143,-2.225,Fruit,Temperate,Unknown
+3,4.171428571,4.328571429,-0.1571428571,Plant,Temperate,Unknown
+3,4.089285714,4.175,-0.08571428571,Plant,Temperate,Unknown
+3,4.021428571,4.296428571,-0.275,Plant,Temperate,Unknown
+4,3.371428571,4.014285714,-0.6428571429,Unknown,Unknown,Unknown
+4,2.75,4.010714286,-1.260714286,Unknown,Unknown,Unknown
+4,2.721428571,4.167857143,-1.446428571,Unknown,Unknown,Unknown
+5,2.364285714,1.871428571,0.4928571429,Plant,Temperate,Europe
+5,2.342857143,1.875,0.4678571429,Plant,Temperate,Europe
+5,2.378571429,1.817857143,0.5607142857,Plant,Temperate,Europe
+6,2.707142857,2.625,0.08214285714,Fruit,Temperate,Unknown
+6,2.575,2.564285714,0.01071428571,Fruit,Temperate,Unknown
+6,2.775,2.517857143,0.2571428571,Fruit,Temperate,Unknown
+7,1.460714286,1.539285714,-0.07857142857,Plant,Temperate,Unknown
+7,1.478571429,1.503571429,-0.025,Plant,Temperate,Unknown
+7,1.471428571,1.482142857,-0.01071428571,Plant,Temperate,Unknown
+8,1.832142857,3.110714286,-1.278571429,Unknown,Temperate,Unknown
+8,1.517857143,3.592857143,-2.075,Unknown,Temperate,Unknown
+8,1.489285714,3.357142857,-1.867857143,Unknown,Temperate,Unknown
+9,2.435714286,3.042857143,-0.6071428571,Animal,Desert,Arizona
+9,2.482142857,3.125,-0.6428571429,Animal,Desert,Arizona
+9,2.485714286,3.125,-0.6392857143,Animal,Desert,Arizona
+10,1.260714286,1.042857143,0.2178571429,Unknown,Subtropical,Florida
+10,1.217857143,1.1,0.1178571429,Unknown,Subtropical,Florida
+10,1.160714286,1.028571429,0.1321428571,Unknown,Subtropical,Florida
+11,4.153571429,4.5,-0.3464285714,Fruit,Subtropical,Florida
+11,3.460714286,3.364285714,0.09642857143,Fruit,Subtropical,Florida
+11,4.117857143,4.325,-0.2071428571,Fruit,Subtropical,Florida
+12,1.878571429,1.528571429,0.35,Unknown,Subtropical,Unknown
+12,1.717857143,1.646428571,0.07142857143,Unknown,Subtropical,Unknown
+12,1.782142857,1.603571429,0.1785714286,Unknown,Subtropical,Unknown
+13,0.6821428571,2.178571429,-1.496428571,Fruit,Subtropical,Florida
+13,1.932142857,3.014285714,-1.082142857,Fruit,Subtropical,Florida
+13,0.6464285714,3.171428571,-2.525,Fruit,Subtropical,Florida
+14,3.892857143,3.967857143,-0.075,Dung,Desert,Southern California
+14,3.832142857,3.625,0.2071428571,Dung,Desert,Southern California
+14,2.971428571,3.564285714,-0.5928571429,Dung,Desert,Southern California
+15,1.010714286,1.146428571,-0.1357142857,Unknown,Unknown,Unknown
+15,1.132142857,1.171428571,-0.03928571429,Unknown,Unknown,Unknown
+15,1.060714286,1.160714286,-0.1,Unknown,Unknown,Unknown
+16,1.546428571,2.607142857,-1.060714286,Unknown,Subtropical,Florida
+16,2.271428571,2.803571429,-0.5321428571,Unknown,Subtropical,Florida
+16,0.9428571429,3.417857143,-2.475,Unknown,Subtropical,Florida
+17,1.439285714,0.8035714286,0.6357142857,Unknown,Subtropical,Florida
+17,1.296428571,0.8571428571,0.4392857143,Unknown,Subtropical,Florida
+17,1.275,0.8142857143,0.4607142857,Unknown,Subtropical,Florida
+18,2.289285714,1.3,0.9892857143,Soil,Subtropical,Florida
+18,4.485714286,2.014285714,2.471428571,Soil,Subtropical,Florida
+18,3.789285714,2.475,1.314285714,Soil,Subtropical,Florida
+19,4.592857143,1.675,2.917857143,Fruit,Subtropical,Florida
+19,4.574086047,1.753571429,2.820514619,Fruit,Subtropical,Florida
+19,3.842857143,1.714285714,2.128571429,Fruit,Subtropical,Florida
+20,1.753571429,3.7,-1.946428571,Strawberry,Desert,Southern California
+20,1.621428571,3.575,-1.953571429,Strawberry,Desert,Southern California
+20,1.725,3.625,-1.9,Strawberry,Desert,Southern California
+21,1.957142857,1.685714286,0.2714285714,Fruit,Desert,Southern California
+21,1.882142857,1.635714286,0.2464285714,Fruit,Desert,Southern California
+21,1.982142857,1.65,0.3321428571,Fruit,Desert,Southern California
+22,3.689285714,0.6321428571,3.057142857,Plant,Tropical,Southeast Asia
+22,3.721428571,0.45,3.271428571,Plant,Tropical,Southeast Asia
+22,2.435714286,0.575,1.860714286,Plant,Tropical,Southeast Asia
+23,2.807142857,2.596428571,0.2107142857,Fruit,Tropical,Southeast Asia
+23,3.685714286,2.539285714,1.146428571,Fruit,Tropical,Southeast Asia
+23,2.792857143,2.492857143,0.3,Fruit,Tropical,Southeast Asia
+24,4.539285714,2.342857143,2.196428571,Fruit,Tropical,Southeast Asia
+24,4.110714286,2.592857143,1.517857143,Fruit,Tropical,Southeast Asia
+24,3.964285714,2.321428571,1.642857143,Fruit,Tropical,Southeast Asia
+25,2.05,2.682142857,-0.6321428571,Soil,Temperate,Europe
+25,1.614285714,2.767857143,-1.153571429,Soil,Temperate,Europe
+25,1.942857143,2.435714286,-0.4928571429,Soil,Temperate,Europe
+26,2.228571429,1.821428571,0.4071428571,Unknown,Antartic,Antartica
+26,2.621428571,2.621428571,0,Unknown,Antartic,Antartica
+26,2.507142857,1.325,1.182142857,Unknown,Antartic,Antartica
+27,4.092857143,1.885714286,2.207142857,Soil,Tropical,Southeast Asia
+27,4.003571429,1.989285714,2.014285714,Soil,Tropical,Southeast Asia
+27,2.921428571,1.875,1.046428571,Soil,Tropical,Southeast Asia
+28,2.55,3.814285714,-1.264285714,Soil,Desert,Middle East
+28,3.035714286,1.857142857,1.178571429,Soil,Desert,Middle East
+28,2.282142857,1.732142857,0.55,Soil,Desert,Middle East
+29,3.125,1.903571429,1.221428571,Plant,Temperate,Quebec
+29,3.771428571,1.7,2.071428571,Plant,Temperate,Quebec
+29,3.489285714,1.785714286,1.703571429,Plant,Temperate,Quebec
+30,4.407142857,3.457142857,0.95,Strawberry,Subtropical,Florida
+30,4.421428571,3.192857143,1.228571429,Strawberry,Subtropical,Florida
+30,4.55,2.560714286,1.989285714,Strawberry,Subtropical,Florida
+31,1.971428571,4,-2.028571429,Strawberry,Subtropical,Florida
+31,1.95,3.917857143,-1.967857143,Strawberry,Subtropical,Florida
+31,1.996428571,3.775,-1.778571429,Strawberry,Subtropical,Florida
+32,2.5,2.239285714,0.2607142857,Strawberry,Subtropical,Florida
+32,2.539285714,2.242857143,0.2964285714,Strawberry,Subtropical,Florida
+32,2.692857143,2.196428571,0.4964285714,Strawberry,Subtropical,Florida
+33,3.435714286,2.789285714,0.6464285714,Strawberry,Subtropical,Florida
+33,3.664285714,2.642857143,1.021428571,Strawberry,Subtropical,Florida
+33,3.503571429,2.696428571,0.8071428571,Strawberry,Subtropical,Florida
+34,3.771428571,3.782142857,-0.01071428571,Strawberry,Subtropical,Florida
+34,3.725,3.753571429,-0.02857142857,Strawberry,Subtropical,Florida
+34,3.721428571,3.721428571,0,Strawberry,Subtropical,Florida
+34,1.253571429,2.682142857,-1.428571429,Strawberry,Subtropical,Florida
+34,1.260714286,2.296428571,-1.035714286,Strawberry,Subtropical,Florida
+34,1.278571429,2.885714286,-1.607142857,Strawberry,Subtropical,Florida
+35,4.05,3.067857143,0.9821428571,Strawberry,Subtropical,Florida
+35,4.282142857,2.953571429,1.328571429,Strawberry,Subtropical,Florida
+35,4.310714286,3,1.310714286,Strawberry,Subtropical,Florida
+36,1.789285714,2.585714286,-0.7964285714,Strawberry,Subtropical,Florida
+36,1.4,3.092857143,-1.692857143,Strawberry,Subtropical,Florida
+36,2.317857143,0.7642857143,1.553571429,Strawberry,Subtropical,Florida
+39,2.360714286,2.057142857,0.3035714286,Strawberry,Subtropical,Florida
+39,2.232142857,2.117857143,0.1142857143,Strawberry,Subtropical,Florida
+39,2.4,2.075,0.325,Strawberry,Subtropical,Florida
+40,4.007142857,3.014285714,0.9928571429,Unknown,Unknown,Unknown
+40,4.203571429,3.517857143,0.6857142857,Unknown,Unknown,Unknown
+40,4.096428571,3.828571429,0.2678571429,Unknown,Unknown,Unknown
+41,3.646428571,3.703571429,-0.05714285714,Unknown,Unknown,Unknown
+41,3.589285714,3.425,0.1642857143,Unknown,Unknown,Unknown
+41,3.782142857,2.996428571,0.7857142857,Unknown,Unknown,Unknown
+42,0.5857142857,0.9892857143,-0.4035714286,Strawberry,Desert,Southern California
+42,0.725,0.5928571429,0.1321428571,Strawberry,Desert,Southern California
+42,0.5571428571,0.475,0.08214285714,Strawberry,Desert,Southern California
+42,0.5071428571,0.7642857143,-0.2571428571,Strawberry,Temperate,Northern California
+42,0.4714285714,1.135714286,-0.6642857143,Strawberry,Temperate,Northern California
+43,0.2464285714,0.4321428571,-0.1857142857,Strawberry,Temperate,Northern California
+43,2.496428571,3.710714286,-1.214285714,Strawberry,Temperate,Northern California
+43,3.682142857,3.621428571,0.06071428571,Strawberry,Temperate,Northern California
+44,3.703571429,3.285714286,0.4178571429,Strawberry,Temperate,Northern California
+44,3.671428571,0.8035714286,2.867857143,Strawberry,Temperate,Northern California
+44,3.182142857,0.6857142857,2.496428571,Strawberry,Temperate,Northern California
+45,3.646428571,1.328571429,2.317857143,Strawberry,Temperate,Northern California
+45,3.589285714,1.289285714,2.3,Strawberry,Temperate,Northern California
+45,3.782142857,3.510714286,0.2714285714,Strawberry,Temperate,Northern California
+47,1.364285714,1.757142857,-0.3928571429,Strawberry,Temperate,Northern California
+47,0.4214285714,4.114285714,-3.692857143,Strawberry,Temperate,Northern California
+47,1.028571429,1.317857143,-0.2892857143,Strawberry,Temperate,Northern California
+47,0.4214285714,4.117857143,-3.696428571,Strawberry,Temperate,Northern California
+47,1.071428571,2.132142857,-1.060714286,Strawberry,Temperate,Northern California
+47,0.4392857143,2.678571429,-2.239285714,Strawberry,Temperate,Northern California
+49,3.757142857,3.567857143,0.1892857143,Strawberry,Temperate,Northern California
+49,0.85,3.864285714,-3.014285714,Strawberry,Temperate,Northern California
+49,3.946428571,3.192857143,0.7535714286,Strawberry,Temperate,Northern California
+49,1.407142857,1.35,0.05714285714,Strawberry,Temperate,Northern California
+49,3.667857143,3.710714286,-0.04285714286,Strawberry,Temperate,Northern California
+49,1.110714286,1.378571429,-0.2678571429,Strawberry,Temperate,Northern California
+50,3.225,3.178571429,0.04642857143,Strawberry,Temperate,Northern California
+50,3.407142857,2.825,0.5821428571,Strawberry,Temperate,Northern California
+50,2.996428571,3.085714286,-0.08928571429,Strawberry,Temperate,Northern California
+51,0.8071428571,3.092857143,-2.285714286,Strawberry,Temperate,Northern California
+51,1,1.503571429,-0.5035714286,Strawberry,Temperate,Northern California
+51,1.35,1.521428571,-0.1714285714,Strawberry,Temperate,Northern California
+52,1.292857143,1.521428571,-0.2285714286,Strawberry,Temperate,Northern California
+52,1.253571429,2.414285714,-1.160714286,Strawberry,Temperate,Northern California
+52,1.271428571,2.317857143,-1.046428571,Strawberry,Temperate,Northern California
+53,2.796428571,2.382142857,0.4142857143,Strawberry,Temperate,Northern California
+53,2.689285714,2.775,-0.08571428571,Strawberry,Temperate,Northern California
+53,2.892857143,2.717857143,0.175,Strawberry,Temperate,Northern California
+54,3.007142857,2.785714286,0.2214285714,Strawberry,Temperate,Northern California
+54,3.05,2.335714286,0.7142857143,Strawberry,Temperate,Northern California
+54,2.925,2.360714286,0.5642857143,Strawberry,Temperate,Northern California
+55,3.010714286,2.346428571,0.6642857143,Strawberry,Temperate,Northern California
+55,2.996428571,2.621428571,0.375,Strawberry,Temperate,Northern California
+55,2.917857143,2.65,0.2678571429,Strawberry,Temperate,Northern California
+56,3.585714286,2.525,1.060714286,Strawberry,Temperate,Northern California
+56,3.389285714,1.282142857,2.107142857,Strawberry,Temperate,Northern California
+56,3.6,1.346428571,2.253571429,Strawberry,Temperate,Northern California
+57,1.703571429,1.4,0.3035714286,Strawberry,Temperate,Northern California
+57,1.75,3.5,-1.75,Strawberry,Temperate,Northern California
+57,1.75,3.746428571,-1.996428571,Strawberry,Temperate,Northern California
+58,1.510714286,1.592857143,-0.08214285714,Strawberry,Temperate,Northern California
+58,1.617857143,1.878571429,-0.2607142857,Strawberry,Temperate,Northern California
+58,1.414285714,1.935714286,-0.5214285714,Strawberry,Temperate,Northern California
+59,3.582142857,1.785714286,1.796428571,Strawberry,Temperate,Northern California
+59,3.775,2.771428571,1.003571429,Strawberry,Temperate,Northern California
+59,3.925,2.671428571,1.253571429,Strawberry,Temperate,Northern California
+60,3.028571429,2.775,0.2535714286,Strawberry,Temperate,Northern California
+60,3.125,0.4964285714,2.628571429,Strawberry,Temperate,Northern California
+60,3.064285714,0.4857142857,2.578571429,Strawberry,Temperate,Northern California
+61,0.6892857143,0.4857142857,0.2035714286,Strawberry,Temperate,Northern California
+61,0.7607142857,3.882142857,-3.121428571,Strawberry,Temperate,Northern California
+61,0.6714285714,3.935714286,-3.264285714,Strawberry,Temperate,Northern California
+62,4.360714286,3.960714286,0.4,Strawberry,Temperate,Northern California
+62,4.328571429,3.542857143,0.7857142857,Strawberry,Temperate,Northern California
+62,4.189285714,4.064285714,0.125,Strawberry,Temperate,Northern California
+63,4.160714286,3.135714286,1.025,Strawberry,Temperate,Northern California
+63,3.685714286,1.957142857,1.728571429,Strawberry,Temperate,Northern California
+63,3.735714286,2.064285714,1.671428571,Strawberry,Temperate,Northern California
+64,2.596428571,2.142857143,0.4535714286,Strawberry,Temperate,Northern California
+64,2.646428571,3.125,-0.4785714286,Strawberry,Temperate,Northern California
+64,2.535714286,2.228571429,0.3071428571,Strawberry,Temperate,Northern California
+65,1.853571429,3.082142857,-1.228571429,Strawberry,Temperate,Northern California
+65,2.142857143,3.067857143,-0.925,Strawberry,Temperate,Northern California
+65,1.385714286,2.414285714,-1.028571429,Strawberry,Temperate,Northern California
+65,1.389285714,3.046428571,-1.657142857,Strawberry,Temperate,Northern California
+65,1.432142857,1.039285714,0.3928571429,Strawberry,Temperate,Northern California
+65,1.435714286,1.007142857,0.4285714286,Strawberry,Temperate,Northern California
+66,1.717857143,1,0.7178571429,Strawberry,Temperate,Northern California
+66,2.167857143,2.810714286,-0.6428571429,Strawberry,Temperate,Northern California
+66,0.925,2.914285714,-1.989285714,Strawberry,Temperate,Northern California
+67,1.021428571,2.892857143,-1.871428571,Strawberry,Temperate,Northern California
+67,1.067857143,2.067857143,-1,Strawberry,Temperate,Northern California
+68,3,2.039285714,0.9607142857,Strawberry,Temperate,Northern California
+68,2.928571429,2.014285714,0.9142857143,Strawberry,Temperate,Northern California
+69,2.385714286,1.117857143,1.267857143,Strawberry,Temperate,Northern California
+69,2.382142857,1.121428571,1.260714286,Strawberry,Temperate,Northern California
+70,1.528571429,1.153571429,0.375,Strawberry,Temperate,Northern California
+70,1.489285714,1.428571429,0.06071428571,Strawberry,Temperate,Northern California
+70,1.464285714,1.353571429,0.1107142857,Strawberry,Temperate,Northern California
+71,2.014285714,1.303571429,0.7107142857,Strawberry,Temperate,Northern California
+71,1.992857143,4.453571429,-2.460714286,Strawberry,Temperate,Northern California
+71,2.028571429,3.371428571,-1.342857143,Strawberry,Temperate,Northern California
+72,4.007142857,4.3,-0.2928571429,Strawberry,Temperate,Northern California
+72,4.203571429,1.628571429,2.575,Strawberry,Temperate,Northern California
+72,4.096428571,1.607142857,2.489285714,Strawberry,Temperate,Northern California
+73,1.853571429,1.617857143,0.2357142857,Strawberry,Temperate,Northern California
+73,1.896428571,1.878571429,0.01785714286,Strawberry,Temperate,Northern California
+73,1.760714286,1.892857143,-0.1321428571,Strawberry,Temperate,Northern California
+74,1.975,1.964285714,0.01071428571,Strawberry,Temperate,Northern California
+74,1.942857143,1.007142857,0.9357142857,Strawberry,Temperate,Northern California
+74,1.910714286,1.042857143,0.8678571429,Strawberry,Temperate,Northern California
+75,1.314285714,1.067857143,0.2464285714,Strawberry,Temperate,Northern California
+75,1.325,3.15,-1.825,Strawberry,Temperate,Northern California
+75,1.364285714,2.914285714,-1.55,Strawberry,Temperate,Northern California
+76,1.557142857,3.753571429,-2.196428571,Strawberry,Temperate,Northern California
+76,2.232142857,4.842857143,-2.610714286,Strawberry,Temperate,Northern California
+76,1.932142857,3.007142857,-1.075,Strawberry,Temperate,Northern California
+77,2.557142857,3.585714286,-1.028571429,Strawberry,Temperate,Northern California
+77,2.157142857,1.453571429,0.7035714286,Strawberry,Temperate,Northern California
+77,2.457142857,1.464285714,0.9928571429,Strawberry,Temperate,Northern California
+78,1.753571429,1.407142857,0.3464285714,Strawberry,Temperate,Northern California
+78,1.771428571,2.517857143,-0.7464285714,Strawberry,Temperate,Northern California
+78,1.817857143,2.5,-0.6821428571,Strawberry,Temperate,Northern California
+79,2.55,2.489285714,0.06071428571,Strawberry,Temperate,Northern California
+79,2.525,1.15,1.375,Strawberry,Temperate,Northern California
+80,1.696428571,1.157142857,0.5392857143,Strawberry,Temperate,Northern California
+80,1.653571429,1.260714286,0.3928571429,Strawberry,Temperate,Northern California
+81,4.6,4.167857143,0.4321428571,Tuber,Temperate,Northern California
+81,4.389285714,4.075,0.3142857143,Tuber,Temperate,Northern California
+81,4.589285714,4.071428571,0.5178571429,Tuber,Temperate,Northern California
+82,0.8964285714,0.7464285714,0.15,Strawberry,Temperate,Northern California
+82,0.8785714286,0.7642857143,0.1142857143,Strawberry,Temperate,Northern California
+82,0.8464285714,0.7464285714,0.1,Strawberry,Temperate,Northern California
+84,0.4035714286,0.3928571429,0.01071428571,Strawberry,Temperate,Northern California
+84,0.3964285714,0.375,0.02142857143,Strawberry,Temperate,Northern California
+84,0.3928571429,0.3571428571,0.03571428571,Strawberry,Temperate,Northern California
+85,0.8571428571,0.6392857143,0.2178571429,Strawberry,Temperate,Northern California
+85,0.8678571429,0.6535714286,0.2142857143,Strawberry,Temperate,Northern California
+85,0.8464285714,0.65,0.1964285714,Strawberry,Temperate,Northern California
+87,1.796428571,1.6,0.1964285714,Strawberry,Temperate,Northern California
+87,1.757142857,1.567857143,0.1892857143,Strawberry,Temperate,Northern California
+87,1.757142857,1.575,0.1821428571,Strawberry,Temperate,Northern California
+88,0.4107142857,0.3928571429,0.01785714286,Strawberry,Temperate,Northern California
+88,0.4142857143,0.4,0.01428571429,Strawberry,Temperate,Northern California
+88,0.4357142857,0.4,0.03571428571,Strawberry,Temperate,Northern California
+91,3.907142857,3.371428571,0.5357142857,Strawberry,Temperate,Northern California
+91,3.992857143,3.525,0.4678571429,Strawberry,Temperate,Northern California
+91,3.957142857,3.610714286,0.3464285714,Strawberry,Temperate,Northern California
+92,1.314285714,1.160714286,0.1535714286,Strawberry,Temperate,Northern California
+92,1.317857143,1.117857143,0.2,Strawberry,Temperate,Northern California
+92,1.346428571,1.114285714,0.2321428571,Strawberry,Temperate,Northern California
+93,0.9142857143,4.085714286,-3.171428571,Strawberry,Temperate,Northern California
+93,0.6821428571,3.232142857,-2.55,Strawberry,Temperate,Northern California
+93,0.8892857143,3.032142857,-2.142857143,Strawberry,Temperate,Northern California
+95,0.7928571429,0.6928571429,0.1,Strawberry,Temperate,Northern California
+95,0.7714285714,0.6892857143,0.08214285714,Strawberry,Temperate,Northern California
+95,0.8178571429,0.7285714286,0.08928571429,Strawberry,Temperate,Northern California
+96,0.9178571429,1.246428571,-0.3285714286,Dung,Desert,Southern California
+96,0.9857142857,1.289285714,-0.3035714286,Dung,Desert,Southern California
+96,0.9678571429,1.317857143,-0.35,Dung,Desert,Southern California
+97,1.496428571,1.85,-0.3535714286,Dung,Desert,Southern California
+97,1.585714286,1.9,-0.3142857143,Dung,Desert,Southern California
+97,1.557142857,1.828571429,-0.2714285714,Dung,Desert,Southern California
+98,1.896428571,2.042857143,-0.1464285714,Plant,Desert,Southern California
+98,1.921428571,2.082142857,-0.1607142857,Plant,Desert,Southern California
+98,1.8,1.971428571,-0.1714285714,Plant,Desert,Southern California
+99,3.717857143,3.107142857,0.6107142857,Fruit,Desert,Southern California
+99,3.839285714,3.007142857,0.8321428571,Fruit,Desert,Southern California
+99,3.832142857,2.964285714,0.8678571429,Fruit,Desert,Southern California
+100,2.45,2.2,0.25,Tuber,Temperate,Maryland
+100,2.525,2.135714286,0.3892857143,Tuber,Temperate,Maryland
+100,2.542857143,2.178571429,0.3642857143,Tuber,Temperate,Maryland
+101,3.785714286,3.378571429,0.4071428571,Fruit,Desert,Southern California
+101,3.910714286,3.346428571,0.5642857143,Fruit,Desert,Southern California
+101,3.814285714,3.45,0.3642857143,Fruit,Desert,Southern California
+102,0.5964285714,0.475,0.1214285714,Fruit,Desert,Southern California
+102,0.5964285714,0.4642857143,0.1321428571,Fruit,Desert,Southern California
+102,0.55,0.4678571429,0.08214285714,Fruit,Desert,Southern California
+103,2.125,1.671428571,0.4535714286,Dung,Desert,Southern California
+103,2.085714286,1.646428571,0.4392857143,Dung,Desert,Southern California
+103,1.967857143,1.717857143,0.25,Dung,Desert,Southern California
+104,2.257142857,1.542857143,0.7142857143,Fruit,Termperate,Northern California
+104,2.114285714,1.528571429,0.5857142857,Fruit,Termperate,Northern California
+104,1.992857143,1.517857143,0.475,Fruit,Termperate,Northern California
+105,4.117857143,3.017857143,1.1,Almond,Termperate,Northern California
+105,3.989285714,3.053571429,0.9357142857,Almond,Termperate,Northern California
+105,3.857142857,3.003571429,0.8535714286,Almond,Termperate,Northern California
+106,3.375,2.535714286,0.8392857143,Almond,Termperate,Northern California
+106,2.742857143,2.607142857,0.1357142857,Almond,Termperate,Northern California
+106,2.675,2.664285714,0.01071428571,Almond,Termperate,Northern California
+107,2.335714286,2.421428571,-0.08571428571,Almond,Termperate,Northern California
+107,2.4,2.435714286,-0.03571428571,Almond,Termperate,Northern California
+107,2.417857143,2.389285714,0.02857142857,Almond,Termperate,Northern California
+108,2.528571429,2.278571429,0.25,Almond,Termperate,Northern California
+108,2.575,2.239285714,0.3357142857,Almond,Termperate,Northern California
+108,2.646428571,2.289285714,0.3571428571,Almond,Termperate,Northern California
+109,1.446428571,1.060714286,0.3857142857,Almond,Termperate,Northern California
+109,1.485714286,1.046428571,0.4392857143,Almond,Termperate,Northern California
+109,1.446428571,1.067857143,0.3785714286,Almond,Termperate,Northern California
+110,1.839285714,1.157142857,0.6821428571,Almond,Termperate,Northern California
+110,1.582142857,1.142857143,0.4392857143,Almond,Termperate,Northern California
+110,1.475,1.139285714,0.3357142857,Almond,Termperate,Northern California
+111,2.425,2.453571429,-0.02857142857,Almond,Termperate,Southern California
+111,2.557142857,2.496428571,0.06071428571,Almond,Termperate,Southern California
+111,2.446428571,2.421428571,0.025,Almond,Termperate,Southern California
+112,2.582142857,2.096428571,0.4857142857,Almond,Termperate,Southern California
+112,2.592857143,2.075,0.5178571429,Almond,Termperate,Southern California
+112,2.560714286,2.092857143,0.4678571429,Almond,Termperate,Southern California
+113,4.075,3.482142857,0.5928571429,Almond,Termperate,Northern California
+113,3.442857143,3.496428571,-0.05357142857,Almond,Termperate,Northern California
+113,4.064285714,3.521428571,0.5428571429,Almond,Termperate,Northern California
+114,1.825,1.617857143,0.2071428571,Almond,Termperate,Northern California
+114,1.65,1.603571429,0.04642857143,Almond,Termperate,Northern California
+114,1.8,1.607142857,0.1928571429,Almond,Termperate,Northern California
+115,0.6571428571,0.3928571429,0.2642857143,Almond,Termperate,Northern California
+115,1.95,0.4357142857,1.514285714,Almond,Termperate,Northern California
+115,0.6678571429,0.4571428571,0.2107142857,Almond,Termperate,Northern California
+116,3.864285714,2.389285714,1.475,Almond,Termperate,Northern California
+116,3.978571429,2.35,1.628571429,Almond,Termperate,Northern California
+116,3.057142857,2.342857143,0.7142857143,Almond,Termperate,Northern California
+117,3.225,2.539285714,0.6857142857,Almond,Termperate,Northern California
+117,3.357142857,2.521428571,0.8357142857,Almond,Termperate,Northern California
+117,3.310714286,2.578571429,0.7321428571,Almond,Termperate,Northern California
+118,3.435714286,1.457142857,1.978571429,Almond,Termperate,Northern California
+118,2.228571429,1.525,0.7035714286,Almond,Termperate,Northern California
+118,1.539285714,1.592857143,-0.05357142857,Almond,Termperate,Northern California
+119,1.446428571,1.325,0.1214285714,Fruit,Desert,Southern California
+119,1.3,1.289285714,0.01071428571,Fruit,Desert,Southern California
+119,1.296428571,1.292857143,0.003571428571,Fruit,Desert,Southern California
+120,1.239285714,4.164285714,-2.925,Almond,Termperate,Southern California
+120,4.25,4.364285714,-0.1142857143,Almond,Termperate,Southern California
+120,3.814285714,4.303571429,-0.4892857143,Almond,Termperate,Southern California
+121,4.428571429,3.007142857,1.421428571,Almond,Termperate,Southern California
+121,4.442857143,3.042857143,1.4,Almond,Termperate,Southern California
+121,3.814285714,2.985714286,0.8285714286,Almond,Termperate,Southern California
+122,1.678571429,1.175,0.5035714286,Almond,Termperate,Southern California
+122,1.660714286,1.228571429,0.4321428571,Almond,Termperate,Southern California
+122,1.635714286,1.264285714,0.3714285714,Almond,Termperate,Southern California
+123,1.992857143,1.896428571,0.09642857143,Almond,Termperate,Northern California
+123,1.853571429,1.839285714,0.01428571429,Almond,Termperate,Northern California
+123,1.946428571,1.821428571,0.125,Almond,Termperate,Northern California
+124,3.910714286,3.364285714,0.5464285714,Almond,Termperate,Northern California
+124,3.675,3.203571429,0.4714285714,Almond,Termperate,Northern California
+124,3.671428571,3.175,0.4964285714,Almond,Termperate,Northern California
+125,2.735714286,2.15,0.5857142857,Almond,Termperate,Northern California
+125,2.853571429,2.071428571,0.7821428571,Almond,Termperate,Northern California
+125,2.742857143,2.107142857,0.6357142857,Almond,Termperate,Northern California
+126,4.675,3.435714286,1.239285714,Almond,Termperate,Northern California
+126,4.203571429,3.432142857,0.7714285714,Almond,Termperate,Northern California
+126,4.032142857,3.425,0.6071428571,Almond,Termperate,Northern California
+127,2.010714286,1.175,0.8357142857,Almond,Termperate,Northern California
+127,1.578571429,1.2,0.3785714286,Almond,Termperate,Northern California
+127,1.875,1.275,0.6,Almond,Termperate,Northern California
+128,2.2,2.257142857,-0.05714285714,Almond,Termperate,Northern California
+128,2.617857143,2.278571429,0.3392857143,Almond,Termperate,Northern California
+128,2.553571429,2.192857143,0.3607142857,Almond,Termperate,Northern California
+129,4.225,3.314285714,0.9107142857,Fruit,Desert,Southerm California
+129,4.142857143,3.253571429,0.8892857143,Fruit,Desert,Southerm California
+129,4.085714286,3.335714286,0.75,Fruit,Desert,Southerm California
+130,2.428571429,2.378571429,0.05,Strawberry,Desert,Southerm California
+130,2.257142857,2.432142857,-0.175,Strawberry,Desert,Southerm California
+130,2.582142857,2.542857143,0.03928571429,Strawberry,Desert,Southerm California

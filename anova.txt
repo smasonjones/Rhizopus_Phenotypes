@@ -1,55 +1,79 @@
-
-Rhizopus Growth at 30C, Dark
-
-            Df Sum Sq Mean Sq F value Pr(>F)  
-R30C$Number  1   4.23   4.227   3.688 0.0595 .
-Residuals   61  69.92   1.146                 
-
-	    Df Sum Sq Mean Sq F value Pr(>F)
-R30C$Region  8   6.54  0.8172   0.653   0.73
-Residuals   54  67.61  1.2520  
-
-             Df Sum Sq Mean Sq F value Pr(>F)
-R30C$Climate  4   4.94   1.235   1.035  0.397
-Residuals    58  69.20   1.193  
-
-               Df Sum Sq Mean Sq F value Pr(>F) 
-R30C$Substrate  4  14.25   3.564   3.451 0.0135 *
-Residuals      58  59.89   1.033                 
-
-
-Rhizopus Growth at 23C, Dark
-
-            Df Sum Sq Mean Sq F value Pr(>F)
-R23C$Number  1   0.79  0.7889   0.778  0.381
-Residuals   61  61.86  1.0141 
-	
-            Df Sum Sq Mean Sq F value  Pr(>F)   
-R23C$Region  8  21.35  2.6688    3.49 0.00258 **
-Residuals   54  41.30  0.7648 
-
-               Df Sum Sq Mean Sq F value Pr(>F)  
-R23C$Substrate  4  10.27  2.5674   2.843  0.032 *
-Residuals      58  52.38  0.9031                 
-
-             Df Sum Sq Mean Sq F value Pr(>F)  
-R23C$Climate  4  12.41  3.1014    3.58 0.0112 *
-Residuals    58  50.24  0.8662                 
-
-Rhizopus Growth at 25C, interminttent "Baseline"
-
-             Df Sum Sq Mean Sq F value Pr(>F)
-Base$Number   1   0.14  0.1446   0.155  0.695
-Residuals   207 193.75  0.9360               
-
-             Df Sum Sq Mean Sq F value Pr(>F)
-Base$Region   9   9.45  1.0498   1.133  0.341
-Residuals   199 184.45  0.9269               
-
-              Df Sum Sq Mean Sq F value Pr(>F)
-Base$Climate   5   5.45  1.0901   1.174  0.323
-Residuals    203 188.45  0.9283     
-
+> summary(aov((R30C$Slope ~ R30C$Substrate)))
                 Df Sum Sq Mean Sq F value Pr(>F)
-Base$Substrate  10  14.01  1.4014   1.543  0.127
-Residuals      198 179.88  0.9085 
+R30C$Substrate   8   11.1   1.385   1.255  0.266
+Residuals      366  404.1   1.104
+
+> summary(aov(R30C$Slope ~ R30C$Number))
+             Df Sum Sq Mean Sq F value  Pr(>F)
+R30C$Number   1    9.2   9.219   8.469 0.00383 **
+Residuals   373  406.0   1.088
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(R23C$Slope ~ R23C$Number))
+             Df Sum Sq Mean Sq F value Pr(>F)
+R23C$Number   1    0.5  0.4882   0.369  0.544
+Residuals   370  490.0  1.3243
+
+> summary(aov(R30C$Slope ~ R30C$Climate))
+              Df Sum Sq Mean Sq F value Pr(>F)
+R30C$Climate   6   11.9   1.979   1.806 0.0969 .
+Residuals    368  403.3   1.096
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(R30C$Slope ~ R30C$Region))
+             Df Sum Sq Mean Sq F value Pr(>F)
+R30C$Region  11   25.7   2.335   2.176 0.0152 *
+Residuals   363  389.5   1.073
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(R23C$Slope ~ R23C$Substrate))
+                Df Sum Sq Mean Sq F value  Pr(>F)
+R23C$Substrate   8   27.1   3.390   2.656 0.00764 **
+Residuals      363  463.4   1.276
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(R23C$Slope ~ R23C$Climate))
+              Df Sum Sq Mean Sq F value Pr(>F)
+R23C$Climate   6   18.1   3.021   2.334 0.0317 *
+Residuals    365  472.4   1.294
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(R23C$Slope ~ R23C$Region))
+             Df Sum Sq Mean Sq F value Pr(>F)
+R23C$Region  11   22.2   2.018   1.551  0.112
+Residuals   360  468.3   1.301
+
+> summary(aov(RDiff$Diff ~ RDiff$Number))
+              Df Sum Sq Mean Sq F value Pr(>F)
+RDiff$Number   1    5.8   5.766   4.604 0.0326 *
+Residuals    370  463.4   1.252
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(RDiff$Diff ~ RDiff$Substrate))
+                 Df Sum Sq Mean Sq F value  Pr(>F)
+RDiff$Substrate   8   31.5   3.932    3.26 0.00133 **
+Residuals       363  437.7   1.206
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(RDiff$Diff ~ RDiff$Climate))
+               Df Sum Sq Mean Sq F value   Pr(>F)
+RDiff$Climate   6   47.0   7.834   6.773 8.05e-07 ***
+Residuals     365  422.2   1.157
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> summary(aov(RDiff$Diff ~ RDiff$Region))
+              Df Sum Sq Mean Sq F value  Pr(>F)
+RDiff$Region  11   48.5   4.410   3.774 3.9e-05 ***
+Residuals    360  420.7   1.169
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
