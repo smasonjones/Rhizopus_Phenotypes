@@ -1,0 +1,23 @@
+R30C<-read.csv("rhizogrowth30C.csv")
+R23C<-read.csv("rhizogrowth23C.csv")
+RDiff<-read.csv("rhizo2330Diff.csv")
+RFlu<-read.csv("fungicide_resistance.csv")
+
+
+summary(aov(R30C$Slope ~ R30C$Substrate))
+summary(aov(R23C$Slope ~ R23C$Substrate))
+summary(aov(R23C$Slope ~ R23C$Climate))
+summary(aov(R30C$Slope ~ R30C$Climate))
+summary(aov(R23C$Slope ~ R23C$Region))
+summary(aov(R30C$Slope ~ R30C$Region))
+summary(aov(R30C$Slope ~ R30C$Number))
+summary(aov(R23C$Slope ~ R23C$Number))
+summary(aov(RDiff$Diff ~ RDiff$Substrate))
+summary(aov(RDiff$Diff ~ RDiff$Climate))
+summary(aov(RDiff$Diff ~ RDiff$Region))
+summary(aov(RDiff$Diff~ RDiff$Number))
+
+summary(aov(RFlu$EC50 ~ RFlu$Substrate))
+summary(aov(RFlu$EC50 ~ RFlu$Climate))
+summary(aov(RFlu$EC50 ~ RFlu$Region))
+summary(aov(RFlu$EC50~ RFlu$Isolate))

@@ -1,7 +1,7 @@
 R30C<-read.csv("rhizogrowth30C.csv")
 R23C<-read.csv("rhizogrowth23C.csv")
 RDiff<-read.csv("rhizo2330Diff.csv")
-
+RFlu<-read.csv("fungicide_resistance.csv")
 pdf("Rhizo_histo.pdf")
 hist(R30C$Slope,main="Distribution of hyphal growth rates at 30C/Dark",xlab="Growth Rate cm/day")
 hist(R23C$Slope,main="Distribution of hyphal growth rates at 23C/Dark",xlab="Growth Rate cm/day")
@@ -11,36 +11,58 @@ dev.off()
 pdf("Rhizo_growth_boxplot.clean.pdf")
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope ~ R30C$Substrate,main="30C growth rates by Substrate",ylab="Growth Rate cm/day",las=2)
+stripchart(R30C$Slope ~ R30C$Substrate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Substrate,main="23C growth rates by Substrate",ylab="Growth Rate cm/day",las=2)
+stripchart(R23C$Slope ~ R23C$Substrate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Climate,main="23C growth rates by Climate",ylab="Growth Rate cm/day",las=2)
+stripchart(R23C$Slope ~ R23C$Climate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope ~ R30C$Climate,main="30C growth rates by Climate",ylab="Growth Rate cm/day",las=2)
+stripchart(R30C$Slope ~ R30C$Climate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope ~ R23C$Region,main="23C growth rates by Region",ylab="Growth Rate cm/day",las=2)
+stripchart(R23C$Slope ~ R23C$Region, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope ~ R30C$Region,main="30C growth rates by Region",ylab="Growth Rate cm/day",las=2)
+stripchart(R30C$Slope ~ R30C$Region, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R30C$Slope,main="30C growth rates",ylab="Growth Rate cm/day",las=2)
+stripchart(R30C$Slope, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 par(mar=c(10,10,5,5)+1)
 boxplot(R23C$Slope,main="23C growth rates",ylab="Growth Rate cm/day",las=2)
+stripchart(R23C$Slope, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+
+
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Substrate,main="Pairwise growth rate difference ratio at 23C and 30C by Substrate",ylab="Ratio (23C-30C)/23C",las=2)
+stripchart(RDiff$Diff ~ RDiff$Substrate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Climate,main="Pairwise growth rate difference ratio at 23C and 30C by Climate",ylab="Ratio (23C-30C)/23C",las=2)
+stripchart(RDiff$Diff ~ RDiff$Climate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+par(mar=c(10,10,5,5)+1)
+boxplot(RDiff$Diff ~ RDiff$Region,main="Pairwise growth rate difference ratio at 23C and 30 C by Region",ylab="Ratio (23C-30C)/23C",las=2)
+stripchart(RDiff$Diff ~ RDiff$Region, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 
 
 
 par(mar=c(10,10,5,5)+1)
-boxplot(RDiff$Diff ~ RDiff$Substrate,main="Pairwise growth rate difference at 23C and 30C by Substrate",ylab="Growth Rate cm/day",las=2)
-par(mar=c(10,10,5,5)+1)
-boxplot(RDiff$Diff ~ RDiff$Climate,main="Pairwise growth rate difference at 23C and 30C by Climate",ylab="Growth Rate cm/day",las=2)
-par(mar=c(10,10,5,5)+1)
-boxplot(RDiff$Diff ~ RDiff$Region,main="Pairwise growth rate difference at 23C and 30 C by Region",ylab="Growth Rate cm/day",las=2)
-
-
-
+boxplot(RDiff$Diff,main="Pairwise growth rate difference at 23C and 30 C (cm/day)",ylab="Ratio (23C-30C)/23C",las=2)
+stripchart(RDiff$Diff, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 
 par(mar=c(10,10,5,5)+1)
-boxplot(RDiff$Diff,main="Pairwise growth rate difference at 23C and 30 C (cm/day)",ylab="Growth Rate cm/day",las=2)
-
+boxplot(RFlu$EC50,main="EC50 of Fludioxonil",ylab="EC50 (mg/L)",las=2)
+stripchart(RFlu$EC50, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+par(mar=c(10,10,5,5)+1)
+boxplot(RFlu$EC50 ~ RFlu$Substrate,main="EC50 of Fludioxonil by Substrate",ylab="EC50 (mg/L)",las=2)
+stripchart(RFlu$EC50 ~ RFlu$Substrate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+par(mar=c(10,10,5,5)+1)
+boxplot(RFlu$EC50 ~ RFlu$Region,main="EC50 of Fludioxonil by Region",ylab="EC50 (mg/L)",las=2)
+stripchart(RFlu$EC50 ~ RFlu$Region, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
+par(mar=c(10,10,5,5)+1)
+boxplot(RFlu$EC50 ~ RFlu$Climate,main="EC50 of Fludioxonil by Climate",ylab="EC50 (mg/L)",las=2)
+stripchart(RFlu$EC50 ~ RFlu$Climate, vertical = TRUE, method = "jitter", add = TRUE, pch = 20, col = 'blue')
 
 
 plot
